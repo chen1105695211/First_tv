@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Line1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    tools:context=".IMainActivity.View.View.HomeActivity">
+
+<FrameLayout
+    android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8">
+
+</FrameLayout>
+
+<LinearLayout
+    android:id="@+id/menuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/homeButton"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/codButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/codButton"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/vodButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/vodButton"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/SNSButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/SNSButton"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/myButton"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+</LinearLayout>
